@@ -1,0 +1,27 @@
+{
+  "version": "3.75.30269.0",
+  "course_id": "6TU08L5NeKN",
+  "title": "Knowledge Check\n\nA topic sentence consists of how many parts, and what are they called?",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5pOpwcYL3Cs",
+      "title": "Knowledge Check\n\nA topic sentence consists of how many parts, and what are they called?",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 611
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
