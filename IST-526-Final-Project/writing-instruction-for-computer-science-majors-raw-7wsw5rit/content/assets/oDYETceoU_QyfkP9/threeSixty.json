@@ -1,0 +1,27 @@
+{
+  "version": "3.75.30269.0",
+  "course_id": "6d5o30cybR9",
+  "title": "knowcheckpara2.2",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "KnowCheckPara2"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6Ho2Co64Mgq",
+      "title": "Multiple Choice",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 611
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

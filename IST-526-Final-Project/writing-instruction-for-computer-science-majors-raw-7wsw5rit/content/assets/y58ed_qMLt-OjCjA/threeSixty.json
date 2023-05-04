@@ -1,0 +1,27 @@
+{
+  "version": "3.75.30269.0",
+  "course_id": "6XOLlwMCM9d",
+  "title": "Untitled1",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Paragraph Interaction"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6GnBDae2rZL",
+      "title": "Untitled Slide",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 560
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
