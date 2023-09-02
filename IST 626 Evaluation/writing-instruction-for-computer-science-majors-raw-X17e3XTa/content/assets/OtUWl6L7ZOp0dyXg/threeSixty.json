@@ -1,0 +1,27 @@
+{
+  "version": "3.74.30180.0",
+  "course_id": "66Kbt9RBH67",
+  "title": "Using prewriting tools allow you to…\n\nDrag and drop your answer.",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5UlyXYQu0Ir",
+      "title": "Using prewriting tools allow you to…\n\nDrag and drop your answer.",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 611
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
