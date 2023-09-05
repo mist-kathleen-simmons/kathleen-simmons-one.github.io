@@ -2,8 +2,8 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #00221C;   /* background color */
-	color: #015335;          /* text color for the entire page */
+	background-color: #E3DFBB; /* background color */
+	color: #05744C; /* text color for the entire page */
 }
 
 h1, h2 { 
@@ -12,41 +12,46 @@ h1, h2 {
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
 #wrapper {
-	width: 85%;
+	width: 65%;
 	margin: 0 auto;    /* centers wrapper */
 }
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:10px;
+	padding:30px;
 	text-align:left;
-	background-color:#4CAF50
+	background-color:#C8E6C9;
 	font-weight: bold;
 	font-size: 150%;
  }
 
 .stepContent{ 
-	background-color: palegreen
-	padding:7px;
-	display: flex;
+	background-color: beige;
+	padding:30px;
+	display:flex;
 	flex-wrap:wrap;
-	justify-content: center;
+	justify-content:left;
 }
 
 .stepDescription {
-	width:55%;
-	padding:5px;
-	line-height:145%;
+	width:60%;
+	padding:30px;
+	line-height:140%;
+}
+
+.stepImage img{
+	border-radius: 40px;
+	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35 px darkgreen;
 }
 
 .stepImage {
 	width:40%;	
-	padding:5px;
+	padding:50px;
 	text-align: center;
 }
 
 .stepImage img {
-    width:100%;
+	width:70%;
     height:auto;
 }
 
