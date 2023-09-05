@@ -2,9 +2,10 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #E3DFBB; /* background color */
+	background-color: #E1D4B8 ; /* background color */
 	color: #05744C; /* text color for the entire page */
-}
+	font-size: 140%;
+} 
 
 h1, h2 { 
 	text-align:center;     /* centers h1 and h2 content */
@@ -26,7 +27,7 @@ h1, h2 {
  }
 
 .stepContent{ 
-	background-color: beige;
+	background-color: mintcream;
 	padding:30px;
 	display:flex;
 	flex-wrap:wrap;
@@ -34,8 +35,8 @@ h1, h2 {
 }
 
 .stepDescription {
-	width:60%;
-	padding:30px;
+	width:45%;
+	padding:10px;
 	line-height:140%;
 }
 
@@ -46,12 +47,12 @@ h1, h2 {
 
 .stepImage {
 	width:40%;	
-	padding:50px;
+	padding:20px;
 	text-align: center;
 }
 
 .stepImage img {
-	width:70%;
+	width:100%;
     height:auto;
 }
 
