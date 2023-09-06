@@ -5,6 +5,7 @@ body {
 	background-color: #E1D4B8 ; /* background color */
 	color: #05744C; /* text color for the entire page */
 	font-size: 140%;
+	font-family: Corbel, Consolas, Dosis; 
 } 
 
 h1, h2 { 
