@@ -43,14 +43,14 @@ h1, h2 {
 }
 
 .stepImage img{
-	border-radius: 40px;
-	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35 px darkgreen;
+	border-radius: 30px;
+	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;	
 }
 
 .stepImage {
 	width:40%;	
 	padding:20px;
-	text-align: center;
+	text-align: center;			
 }
 
 .stepImage img {
