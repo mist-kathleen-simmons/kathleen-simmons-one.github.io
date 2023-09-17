@@ -5,11 +5,20 @@ body {
 	background-color: #E1D4B8 ; /* background color */
 	color: #05744C; /* text color for the entire page */
 	font-size: 140%;
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	} 
+h1 {
+	font-family: Caveat;
+	font-size: 200%;
+}
+
+h2 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+	font-size: 140%;	
+}
+body {font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"}
 
 h1, h2 { 
-	text-align:center;     /* centers h1 and h2 content */
+	text-align:center;     /* centers h1 and h2 content */	
 }
 
 /* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
@@ -20,21 +29,22 @@ h1, h2 {
 
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:30px;
+	padding:10px;
 	text-align:left;
 	background-color:#C8E6C9;
 	font-weight: bold;
-	font-size: 150%;
-	border-radius: 30px;	
+	font-size: 140%;
+	border-radius: 20px;
+	font-family: Caveat;
  }
 
 .stepContent{ 
 	background-color: mintcream;
-	padding:30px;
+	padding:20px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:left;
-	border-radius: 30px;
+	border-radius: 10px;
 	}
 
 
@@ -51,13 +61,13 @@ h1, h2 {
 }
 
 .stepImage img{
-	border-radius: 40px;
-	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;
+	border-radius: 20px;
+	box-shadow: 0 4px 10px 0 #388E3C, 0 6px 20px #388E3C;
 }
 
 .stepImage {
 	width:40%;	
-	padding:20px;
+	padding:30px;
 	text-align: center;	 
 }
 
