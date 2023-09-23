@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	  background-image: url("../img/ks_images/marine2.jpg")		
+		;/* background image*/					
+	  color: #388e3c;  		/* text color for the entire document */
+	  font-size: 12px;
+	  font-family: Calibri;
+	  text-align:center;
+	}
+
+a {
+	padding: 15px;
+    margin: 30px;
+	font-size: 140%;
+	background-color: mintcream; 
+	color: #05744C;
+	 }
+
+a:hover {
+	font-size:175%;
+	background-color: #D5D2BA; 
+	color: #E9E7DB; 
+	text-align: center;
+}
+
+#wrapper {
+	width:1000px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: #d9d3c6
+		;  /* creates white background with 80% opacity */
+}
+
+	h1 {
+	font-family: Caveat;
+	font-size: 400%;  
+	text-align:center;     /* centers h1 and h2 content */
+	text-color:darkgreen;
+}
+
+
+.stepContent{ 
+	background-color: mintcream;
+	padding:60px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	border-radius:20px;	
+	text-align: center
+	}
+
+.stepDescription {
+	width:60%;
+	padding:20px;
+	line-height:140%;
+	text-align: center;
+}
+
+strong {
+  font-weight: 800;
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: f4f2ef;  /* sets background color for table cells*/
+}
+
+h1, h2 { 
+	text-align:center;     /* centers h1 and h2 content */
+}
+
+
+audio { 
+	width:305px;   /* sets the width of the audio controls */
+}
+
+
+
+
+
+
+
