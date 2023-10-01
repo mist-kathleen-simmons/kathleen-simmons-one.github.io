@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">	
+<title>question1</title>
+<link href="css/styles5.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<br>
+	<br>	
+	<a href="question1.html">  Plant Care </a>
+	<a href="question2.html"> Planting Quiz </a>
+	<br>
+	<br>
+	
+	<div id="wrapper">
+ 
+			<h1> The Green Thumb Rules </h1>
+			<h2> of </h2>
+		 
+		<h2>No Nonsense Plant Care</h2>
+ 
+		<h3 id="hint">Hint: Select the image to reveal the answer!</h3> 
+	</div> <!-- closing  “wrapper” -->
+	
+	<br>
+	
+	<div id="wrapper2">
+		<br>
+		<div id="step1">
+				<div class="stepContent">
+					<div class="stepDescription">
+ 		 <p1> When Should I...</p1>
+		<br>
+		<br>				
+		<div>
+			
+			<ul1> 1. Water My Plants ?</ul1>
+			<br>
+			<br>
+			<div id="answer1"> 
+			<img onmouseenter="showAnswer1()" onmouseleave="hideAnswer1()"  id="watering" src="img/watering2.jpg" alt="watering" width="205" height="305" />
+			<h3 id="feedback1"> </h3>
+				
+
+		  </div>
+		</div>
+						
+			<br>
+			<br>			
+		<div>
+			<ul1> 2. Feed My Plants? </ul1>
+			<br>
+			<br>
+			<div id="answer2">				
+			<img onmouseenter="showAnswer2()" onmouseleave="hideAnswer2()" id="feeding" src="img/Planting.jpeg" alt="feeding" width="205" height="305" />
+				<h3 id="feedback2"> </h3> 				 
+
+			</div>
+		</div>
+			<br>
+			<br>			
+		<div>	
+		<ul1> 3. Change The Soil? </ul1>
+			<br>
+			<br>
+			<div id="answer3">
+			<img onmouseenter="showAnswer3()" onmouseleave="hideAnswer3()" id="tending" src="img/Tending.jpeg" alt="tending" width="205" height="305" />
+			<h3 id="feedback3"></h3>																			
+		  </div>
+		</div>			
+ 		
+			<br>
+			<p> Image Credit: Holly | Adobe Stock | Edu. Lic. </p>									
+
+		</div><!--stepDescription-->
+		</div>	<!--stepContent-->			
+		</div ><!--step1-->				
+				
+			  
+		<div id="feedback">	</div>
+	</div>  <!-- closing “wrapper2” -->
+	
+		<script>
+		function showAnswer1() {
+	   $("#watering2").hide();
+	   $("#watering2_image").show();
+	   $("#feedback1").html("<h3> Rule of Thumb #1 <br> Seriously! Stick a finger in the soil, if it’s dry. <br> WATER!!!)</h3>");
+	$("#watering").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen");
+	  }
+
+	function hideAnswer1() {
+	   $("#watering2").show();
+	   $("#watering2_image").hide();
+	   $("#feedback1").html(""); 
+		$("#watering").css("box-shadow",""); 
+	  }
+				
+ 	function showAnswer2() {
+	   $("#planting").hide();
+	   $("#planting_image").show();
+	   $("#feedback2").html("<h3> Rule of Thumb #2 <br> During growing season, feed your young plants, <br> when you water (2 to 6 weeks)</h3>");
+		$("#feeding").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen");	}
+			
+	function hideAnswer2() {
+	   $("#planting").show();
+	   $("#planting_image").hide();
+	   $("#feedback2").html("");
+		$("#feeding").css("box-shadow","");  
+	  }
+	 	 
+	function showAnswer3() {
+	   $("#tending").hide();
+	   $("#tending_image").show();
+	   $("#feedback3").html("<h3> Rule of Thumb #3 <br> When roots shoot out the holes, or push up the foliage! <br> Also, when the top of the soil turns dusty looking </h3>");
+	   $("#tending").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen");
+	   }
+
+	 function hideAnswer3() {
+	   $("#tending").show();
+	   $("#tending_image").hide();
+	   $("#feedback3").html("");  
+	   $("#tending").css("box-shadow","");  
+	   }
+   		
+					
+	
+	</script>
+</body>
+</html>
