@@ -3,76 +3,113 @@
 
 
 body {
-	background-image: url("../img/marine2.png");/* background image*/
+	background-image: url("../img/aboutplants.png");/* background image*/
 	font-size: 16px;
 	font-family: Caveat, Calibri;
 	color: darkgreen;   /* text color for the entire document */
 	text-align: center;
 	}
 
-#wrapper {
-	width:80%;
-	margin:0 auto;         /* centers wrapper */
- 	text-align:center;
-	background-color:#E1D4B8;  /* creates beige background with 80% opacity */
-	padding: 10px;
-}
+
 
 h1, h2, h3 { 
 	text-align:center;     /* centers h1 and h2 and h3 content */
-}
+	background-color: rgba(245,255,250,0.80); /* creates mintcream background with 80% opacity */
+	}
 
 h1 { font-family: Caveat;
-	font-size: 300%;
+	font-size: 250%;
+	text-align: center;
 }
 
 
 h2 { font-family: Caveat;
 	font-size: 175%;
-	text-align: center;
-}
+	text-align: top center;
+	}
 
 h3 { 
 	font-family: Calibri;
 	font-size: 130%;
 	text-align: top center;
-}
+	}
 
-span { 
+h4 {
 	font-family:Calibri;
-	font-size: 150%;
-	text-align: clear right;
-	color: #05744C;
-	font-style: oblique;
-}
-
+	font-size:80%;
+	text-align: left;
+	margin: 10px;
+	background-color: rgba(245,255,250,0.00); /* creates mintcream background with 80% opacity */
+	}
 a:hover {
 	font-size:200%;
-	background-color: #D5D2BA; 
-	color: #E9E7DB; 
-}
+	background-color: rgba(244,243,234,0.50); 
+	color: darkgreen; 
+	}
 
 a {
 	padding: 15px;
     margin: 6px;
 	font-size: 135%;
-	background-color: mintcream; 
+	background-color: rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
 	color: #05744C; 
 }
 
+#wrapper {
+	width:60%;
+	height: 40%;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: rgba(245,255,250,1.00); /* creates mintcream background with 80% opacity */
+	padding: 10px;
+}
 
 #wrapper2 {
-	width:80%;
-	margin:0 auto;        /* centers wrapper */
-	padding: 20px;
-	background-color: mintcream;
+	width: 60%;
+	height:40%;
+	margin: 0 auto;        /* centers wrapper */
+	background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 80% opacity */
+	
 }
+
+#wrapper3{
+	width: 60%;
+	height: 40%;
+	margin: 0 auto;
+   background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 60% opacity */
+		}
+#wrapper4{
+	width:60%;
+	height:50%;
+	margin: 0 auto;
+	background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 60% opacity */
+}
+
+#wrapper5{
+	width:60%;
+	height: 40%;
+	margin: 0 auto;
+	background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 60% opacity */
+}
+
+div{
+	height: 40%;
+	width: 0 auto;
+	background-color: rgba(245,255,250,0.00);  /* creates mintcream background with 60% opacity */
+	text-align: center;
+	margin: 0 auto;
+	}
+
+
+
 
 p { 
 	font-weight:800;
 	font-size: 80%;
 	text-align: left;	
 	font-family: Candara;
+	margin:0 auto;
+	background-color:rgba(245,255,250,0.00);  /* creates mintcream background with 0% opacity */
 }
 	
 p1 {
@@ -88,36 +125,27 @@ ul1 {
 	font-size: 200%;
 	text-align: left;
 	text-indent: 200px;
+	background-color:rgba(245,255,250,0.00);  /* creates mintcream background with 60% opacity */
 }
 
 ul{ 
 	font-weight: 700;
 	font-size: 150%;
 	text-align: center;
+	background: rgba(245,255,250,0.00);  /* creates mintcream background with 60% opacity */
 	}
 
 
 #watering2_image {
 	border: #C8E6C9 5px solid;
 	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;
-	background-color: #C8E6C9;
+	background-color: rgba(245,255,250,0.00);  /* creates mintcream background with 80% opacity */;
 	text-align: left;
 }
 
 #watering2_image{
 	display:none;/* hides content*/
 	border:#C8E6C9 5px solid;
-}
-
-#answer1 {
-	text-align: left;
-	}
-#answer2{
-	text-align: left;
-}
-
-#answer3{
-	text-align: left;
 }
 
 #planting_image {
@@ -155,18 +183,51 @@ img, .choices {
 	cursor:pointer;
 	}
 
+
+#answer1 {
+	text-align: left;
+	flex-wrap:wrap; 
+	}
+#feedback{
+	text-align: center;
+	flex-wrap: wrap;
+}
+#feedback1{
+	text-align: center;
+	flex-wrap: wrap;
+}
+#answer2{
+	text-align: left;
+	flex-wrap: wrap;
+}
+#feedback2{
+	text-align: center;
+	flex-wrap:wrap;
+}
+
+#answer3{
+	text-align: left;
+	flex-wrap: wrap;
+}
+
+#feedback3{
+	text-align: center;
+	flex-wrap: wrap;
+}
+
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
-	padding:30px;
+	padding:10px;
 	text-align:center;
-	background-color:#C8E6C9;
+background-color:rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
 	font-weight: bold;
 	font-size: 150%;
+	flex-wrap: wrap;
  }
 
 .stepContent{ 
-	background-color: mintcream;
-	padding:30px;
+	background-color:rgba(245,255,250,0.00);  /* creates mintcream background with 60% opacity */
+	padding:10px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:left;
@@ -176,7 +237,9 @@ img, .choices {
 	width:90%;
 	padding:10px;
 	line-height:180%;
+	background-color:rgba(245,255,250,0.00);  /* creates mintcream background with 80% opacity */
 	}
+
 
 .stepImage img{
 	border-radius: 10px;
@@ -184,13 +247,14 @@ img, .choices {
 }
 
 .stepImage {
-	width:80%;	
+	width:60%;	
 	padding:40px;
 	text-align: left;
-	}
+	flex-wrap: wrap;
+		}
 
 .stepImage img {
-	width:100%;
+	width:60%;
     height:auto;
 }
 

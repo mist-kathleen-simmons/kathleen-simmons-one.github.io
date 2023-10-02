@@ -14,57 +14,65 @@
 	<a href="question2.html"> Planting Quiz </a>
 	<br>
 	<br>
+	<br>
 	<div id="wrapper">
 		<br> 
+		<br>
 			<h1> The Green Thumb Rules </h1>
 			<h2> of </h2>
 		 
-		<h2>No Nonsense Plant Care</h2>		
+		    <h2>No Nonsense Plant Care</h2>		
  
-		<h3 id="hint">Hint: Select the Question text to reveal the answer!</h3>
-		
-	</div> <!-- closing  “wrapper” -->
+		   <h3 id="hint">Hint: Select your answer to reveal!</h3>
+			</div> <!-- closing  “wrapper” -->
 	
-	<br>
+		<br>
+		<br>
 	<div id="wrapper2">
-				
-		 <div id="step1">
-			 <br>
-			 <br>
-			<div>
-				<br>
-			 <h1> Plant Considerations</h1>
-				<h1> Quiz</h1> </div>
-			 <br>
-				<div class="stepContent">
-				  <div class="stepDescription">
-						<br>
-						<h2> What should you consider when you're a beginning plant parent? </h2>
-						<br>
-					  <br>
-			<div><img id="planted_image" src="img/Planted2.png" alt="a potted plant"  width="172" height="230" style= "clear left" />	 </div>
-					 <br>
-							 
+		<br>
+		<div>
+		<br>
+		<h1> Plant Considerations</h1>
+			<h1> Quiz</h1> </div>
+	</div> <!--close "wrapper2"-->
+		<br>
+		<br>
+		<div id="wrapper3">
+		<div id="step1">
+		<br>
+		<div class="stepContent">
+		<div class="stepDescription">
+		<br>
+		<h2> What should you consider when you're a beginning plant parent? </h2>
+		<br>
+			<div><img id="planted_image" src="img/Planted2.png" alt="a potted plant"  width="205" height="305" style= "clear left" />	 </div>
+		<br>
+		</div> <!--closing "stepDescription"-->
+		</div> <!--closing "stepContent"-->
+		</div>	<!--closing "step1"-->
+	</div> <!--classing "wrapper3"-->
+		 <br>
+		 <br>
+	<div id="wrapper4">	
+	<div id="step2">	
+	 <div class="stepContent">
+	<div class="stepDescription">
+		
 			<h3 onclick="wrongAnswer1()" class="choices"> Lighting </h3>
 			<h3 onclick="wrongAnswer2()" class="choices"> Location </h3>
 			<h3 onclick="wrongAnswer3()" class="choices"> Growth Size </h3>
 			<h3 onclick="wrongAnswer4()" class="choices"> Care Schedule </h3>
 			<h3 onclick="wrongAnswer5()" class="choices"> Budget </h3> 
 			<h3 onclick="rightAnswer()" class="choices"> All of the above</h3>
-			
-				
-								
-			 	
-		<div id="feedback">	</div>		  
-					  
-				
-		</div> <!-- Closing "stepDescription"-->
-		<p> Image Credit: Holly | Adobe Stock | Edu. Lic. </p>	
-		</div> <!-- Closing "stepContent"-->
-		</div> <!--closing "step1"-->	
-		
-		 
-		</div> 	<!-- closing “wrapper2” -->		
+					 	
+		<div id="feedback">	</div>	 
+				  
+	</div> <!-- Closing "stepDescription"-->
+		<h4> Image Credit: Holly | Adobe Stock | Edu. Lic. </h4>	
+	</div> <!-- Closing "stepContent"-->
+	</div> <!--closing "step2"-->
+	</div> <!-- Closing "Wrapper4"-->
+		 		
 	   <script>
  	   function rightAnswer(){
 		
@@ -95,6 +103,6 @@
 		$("#feedback").html("<h3 style='color:#f8bbd8'> Correct, but there is more than one answer. </h3>");        
 		}   
      							
-	 	 </script>  	
+	 </script>  	
 	 </body>
 </html>
