@@ -3,8 +3,7 @@
 
 body
 {
-	  background-image: url("../img/ks_images/marine2.jpg")		
-		;/* background image*/					
+	  background-image: url("../img/ks_images/marine2.jpg");/* background image*/					
 	  color: #388e3c;  		/* text color for the entire document */
 	  font-size: 12px;
 	  font-family: Calibri;

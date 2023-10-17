@@ -62,14 +62,14 @@ a {
  	text-align:center;
 	background-color: rgba(245,255,250,1.00); /* creates mintcream background with 80% opacity */
 	padding: 10px;
-}
+	}
 
 #wrapper2 {
 	width: 60%;
 	height:40%;
 	margin: 0 auto;        /* centers wrapper */
 	background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 80% opacity */
-	
+	padding: 10px;
 }
 
 #wrapper3{
@@ -78,6 +78,7 @@ a {
 	margin: 0 auto;
    background-color: rgba(245,255,250,1.00);  /* creates mintcream background with 60% opacity */
 		}
+
 #wrapper4{
 	width:60%;
 	height:50%;
