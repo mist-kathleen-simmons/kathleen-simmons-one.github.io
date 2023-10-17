@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Final Project541</title>
+	<link href="finalstyles/final-styles.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<br>
+	<br>
+	<a href="home1.index.html"> Home</a>
+	<a href="history2.html"> History</a>
+	<a href="goodplants3.html"> Goodness of Plants</a>
+	<a href="parenting4.html"> Plant Parenting</a>
+	<a href="terrarium5.html"> Terrarium Building</a>
+	<a href="plantcare6.html"> Plant Care</a>
+	<a href="resource7.html"> Resources</a>
+	<br>
+	<br>
+	<br>
+	<div id="wrapper1"> 
+	<h1> Affinity of Houseplants: A Beginners Guide</h1>
+	<h2>  General Plant Care</h2>
+	<h3 id="hint">Hint: Hover over the image to reveal the answer!</h3>
+	</div>
+	<br>
+	<div id="wrapper2">
+	<div id="step1">
+		<div class="stepContent">
+		<div class="stepDescription"> 
+		<div class="stepTitle"> <h2> When should I...  </h2></div>
+		</div> <!--closing"stepDescription"-->
+		</div> <!--closing "stepContent"-->
+		</div> <!--closing "step1"-->
+		</div>  <!--closing "wrapper1"-->
+		<br>
+		<div id="wrapper3"> 
+		<div id="step2">
+		<div class="stepContent">   
+		<div class="stepDescription"> 
+		<br>
+		<div class="stepTitle"> <ul1> 1. Water My Plants ?  </ul1> </div>
+			<br>			
+		<div id="answer1"> 
+		<img onmouseenter="showAnswer1()" align="left" onmouseleave="hideAnswer1()"  id="watering" src="img/watering.jpeg" alt="watering" />
+		<div id="feedback1"> </div>	
+		</div> 
+		</div> <!--closing "stepDescription"-->
+		</div> <!--closing "stepContent"-->
+		</div> <!--closing "step2"-->
+	    </div> <!--closing "wrapper3"-->
+	    <br>
+	    <div id="wrapper4">
+		<div id="step3">	
+		<div class="stepContent">
+		<div class="stepDescription">
+	    <div class="stepTitle"> <ul1> 2. Feed My Plants? </ul1>    </div> 
+		<br>
+		<div id="answer2">				
+		<img onmouseenter="showAnswer2()" align="left" onmouseleave="hideAnswer2()" id="feeding" src="img/Planting.jpeg" alt="feeding" /> 
+		<div id="feedback2"> </div>  
+		</div> <!-- closing "answer2"-->
+		</div><!--stepDescription-->
+		</div>	<!--stepContent-->
+		</div> <!--closing "step3"-->	
+		</div> <!--closing "wrapper4"-->
+	    <br>
+	
+		<div id="wrapper5"> 
+		<div id="step4">
+	
+		<div class="stepContent">
+		<div class="stepDescription">
+		<div class="stepTitle"><ul1> 3. Change The Soil? </ul1> </div>
+		<br>
+		<div id="answer3">
+		<img onmouseenter="showAnswer3()" align="left" onmouseleave="hideAnswer3()" id="tending" src="img/Tending.jpeg" alt="tending" />
+		<br>
+		<div id="feedback3"></div>
+		<br>												
+		</div>
+		</div><!--stepDescription-->
+		</div>	<!--stepContent-->			
+ 		<br>
+		<br>
+		<br>
+		</div> <!-- closing "step4"-->
+		<div>
+		<h6> Information courtesy of The Sill - Blog Articles | 
+		How to Fertilize... | How to Repot... | What does watering do...</h6>
+		<h6> Image Credit: Holly | Adobe Stock | Edu. Lic. <br>
+		Background Image: Maksim Shebeko | Adobe Stock| Edu. Lic.</h6></div>
+		<br>
+		</div> <!--closing "wrapper5"-->
+		<div id="feedback"></div>
+		<script>
+		function showAnswer1() { 	  
+	   $("#feedback1").html("<br><br><blockquote> When to water your plants depends on a few things. The type of plant. How long it has been since they were last watered.<br> Plants that do not require much water, should be watered every 3 to 6 of weeks will suffice. <br> <br> Place your finger in the dirt about two inches, if it's dry — add water. <br> </blockquote4> <br>");
+		$("#watering").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen" );
+	   }
+
+	  function hideAnswer1() {	  
+	   $("#feedback1").html(""); 
+		$("#watering").css("box-shadow",""); 
+	  }
+				
+ 	  function showAnswer2() {
+	  
+	   $("#feedback2").html("<br><br><blockquote> <br> Depending the type of soil. For instance, Miracle-Gro soil is pre-fertilized up to 3 months. <br> <br> Time of year typically determines when to feed. Usually from Spring to early Fall are active growing times for plants. Feeding is approximately every 3 to 6 weeks. <br> <br> Note: repotted plants will not benefit from feeding. <br> <br> </blockquote> <br>");
+		$("#feeding").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen");	}
+			
+	   function hideAnswer2() {
+	   $("#feedback2").html("");
+	   $("#feeding").css("box-shadow","");  
+	   }
+	  function showAnswer3() {
+	  $("#feedback3").html("<br><br> <blockquote> When you notice your plant Roots growing out the holes, or pushing up the plant. <br> Additionally, when your plants appear to have or be… <br> <br> <ul>  <li> slow growth </li> <li> Top-Heavy foliage </li>  <li>Too dry, soil doesn’t hold water (runs through) </li>   <li> Water NOT draining</il>  <li> Foliage overgrowth </li>  <li> Salt & Mineral build up on soil (looks dusty) </li> <li> More than a year since a repotting/soil change. </li> </ul> </blockquote> <br>");
+	   $("#tending").css("box-shadow","0 4px 15px 0 darkgreen, 0 6px 35px darkgreen");
+	   }
+
+	 function hideAnswer3() {
+	   
+	   $("#feedback3").html("");  
+	   $("#tending").css("box-shadow","");  
+	   }
+  	   </script>
+	   <br>
+	   <br>
+	
+</body>
+</html>

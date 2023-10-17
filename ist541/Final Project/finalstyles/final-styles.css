@@ -1,0 +1,437 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("../img/aboutplants.png");/* background image*/
+	background-size: cover;
+	font-size: 16px;
+	font-family: Caveat, Calibri, Candara;
+	color: darkgreen;   /* text color for the entire document */
+	text-align: center;
+}
+
+
+a:hover {
+	font-size:100%;
+	font-weight: 500;
+	color: darkgreen;	 
+	}
+
+a {
+	
+    margin: 6px;
+	font-size: 100%;
+	color: darkgreen;
+	background-color: rgba(244,242,234,0.70);  /* creates mintcream background with 80% opacity */
+}
+a {
+	padding:8px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-weight: 500;
+	color: darkgreen;
+		}
+
+
+
+h1, h2, h3 { 
+	text-align:center;     /* centers h1 and h2 and h3 content */
+	background-color: rgba(245,255,250,0.10); /* creates mintcream background with 80% opacity */
+	}
+
+h1 { font-family: Caveat;
+	font-size: 250%;
+	text-align: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	
+}
+
+
+h2 { font-family: Caveat;
+	font-size: 36px;
+	text-align: center;
+	flex-wrap: wrap;
+	padding: 10px;
+	}
+
+h3 {
+	font-family: Caveat;
+	font-size: 28px;
+	text-align: center;
+	font-weight: bold;
+	flex-wrap: wrap;
+	}
+
+h4{
+ font-family:Candara;
+ font-size: 24px;
+text-align: center;
+font-weight: bold;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+h5{
+ font-family:Candara;
+ font-size: 16px;
+ text-align: center;
+ font-weight: bold;
+ flex-wrap: wrap;
+padding: 20px;	
+}
+
+h6{
+ font-family:Candara;
+ font-size: 14px;
+ text-align: left;
+ font-weight: 500;
+ flex-wrap: wrap;
+  
+}
+p{
+	font-family: Candara;
+	font-size: 18px;
+	text-align:	left;
+	font-weight: 800;
+	padding: 10px;
+	padding-right: 10%;
+	flex-wrap: wrap;
+}
+p1 {
+	font-family: Papyrus;
+	font-size: 18px;
+	font-weight: 800;
+	font-weight: bold;
+	text-align: left;
+	padding:10px;
+	flex-wrap: wrap;
+	background-color: rgba(200,230,201,1.00);
+	
+}
+
+p2{
+	text-align: center;
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family:calibri;
+	font-weight: bold;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+
+p3{
+	text-size: 32px;
+	font-weight: bold;
+	font-family: Caveat;
+	text-align: right;
+	flex-wrap: wrap;
+	padding: 10px;
+	}
+	
+
+ul{
+ font-family: Candara;
+ font-size: 18px;
+ font-weight: 500;
+ text-align: left;
+ flex-wrap: wrap;
+ padding-left:20px;
+ padding-right: 10px;
+ padding-bottom: auto;
+ margin: 0 auto;	
+ 	}
+ul1{
+ font-family: Caveat;
+ font-weight: 700;
+font-size: 28px;
+ text-align: left;
+ flex-wrap: wrap;
+ padding:20px;
+ margin-left: 20px;	
+	}
+li{
+	margin-left: 20%;
+	margin-right:auto;
+		}
+
+div{
+	text-align: left;
+	padding: 10px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	}
+.blockquote{
+	align-content: center;
+	vertical-align: middle;
+	text-align: left;
+	flex-wrap: wrap;
+	line-height: 130%;
+	padding-left: 50px;
+	padding-right:50px;
+	margin-left:25%;
+	margin-right: auto;
+}
+blockquote{
+	text-align: left;
+	font-family:"Segoe Print",Calibri;
+	font-size: 17px;	
+	font-weight: 800;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	border-radius: 10px;
+	background-color: rgba(200,230,201,1.00);
+	}
+blockquote2{
+	text-align: left;
+	font-family: Candara;
+	font-size: 17px;	
+	font-weight: 800;
+	align-content: space-around;
+	flex-wrap: wrap;
+	padding-left: 5%;
+	border-radius: 10px;
+	background-color: rgba(200,230,201,0.00);
+	}
+
+.img{
+	border-radius: 10px;	
+	width:100%;
+	height: auto;
+	text-align: right;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	align-content: right;
+	background-color: rgba(245,255,250,0.80);
+	}
+
+img{
+	width:17%;
+	height: auto;
+    text-align: right;
+	flex-wrap: wrap;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: auto;
+	border-radius: 10px;
+	}
+
+iframe{
+    	border-radius: 20px;
+		flex-wrap: wrap;
+    	text-align: center;
+    background-color: rgba(245,255,250,0.20); /* creates mintcream background with 80% opacity */
+   margin-left: 15%;
+	}
+
+
+#wrapper1 {
+	width:85%;
+	height: auto;
+	margin: 0 auto;         /* centers wrapper */
+ 	text-align:center;
+	padding: 10px;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	background-color: rgba(245,255,250,0.80);
+		}
+
+#wrapper2 {
+	width: 85%;
+	height:auto;
+	margin: 0 auto;        /* centers wrapper */
+	background-color: rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
+	padding: 10px;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	
+}
+
+#wrapper3 {
+	width: 85%;
+	height:auto;
+	margin: 0 auto;        /* centers wrapper */
+	background-color: rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
+	padding: 10px;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	
+}
+
+#wrapper4{
+	width: 85%;
+	height:auto;
+	margin: 0 auto;        /* centers wrapper */
+	background-color: rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
+	padding: 10px;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	
+}
+
+#wrapper5{
+	width: 85%;
+	height:auto;
+	margin: 0 auto;        /* centers wrapper */
+	background-color: rgba(245,255,250,0.80);  /* creates mintcream background with 80% opacity */
+	padding: 10px;
+	flex-wrap: wrap;
+	border-radius: 10px;
+		
+}
+
+#watering2_image {
+	border: #C8E6C9 5px solid;
+	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;
+	background-color: rgba(245,255,250,0.00);  /* creates mintcream background with 80% opacity */;
+	text-align: left;
+	}
+
+#watering2_image{
+	display:none;/* hides content*/
+	border:#C8E6C9 5px solid;
+}
+
+#planting_image {
+	border: #C8E6C9 5px solid;
+	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;
+	background-color: #C8E6C9;
+	text-align: left;
+}
+
+#planting_image{
+	display:none;/* hides content*/
+	border:#C8E6C9 5px solid;
+}
+
+#tending_image {
+	border: #C8E6C9 5px solid;
+	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 35px darkgreen;
+	background-color: #C8E6C9;
+	text-align: left;
+}
+
+#tending_image{
+	display:none;/* hides content*/
+	border:#C8E6C9 5px solid;
+}
+
+#planted_image{
+	border: #C8E6C9 5px solid;
+/*	box-shadow: 0 4px 15px 0 darkgreen, 0 6px 20px darkgreen;*/
+	background-color: #f4f2ef;
+	text-align: left;
+	}
+
+img, .choices {
+	cursor:pointer;
+	}
+
+
+#answer1 {
+	text-align: left;
+	flex-wrap:wrap; 
+	}
+#feedback{
+	text-align: center;
+	flex-wrap: wrap;
+}
+#feedback1{
+	text-align: center;
+	flex-wrap: wrap;
+}
+#answer2{
+	text-align: left;
+	flex-wrap: wrap;
+}
+#feedback2{
+	text-align: center;
+	flex-wrap:wrap;
+}
+
+#answer3{
+	text-align: left;
+	flex-wrap: wrap;
+}
+
+#feedback3{
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:10px;
+	text-align:left;
+	background-color:rgba(255,222,173,0.80);
+	font-weight: bold;
+	font-size: 28px;
+	border-radius: 20px;
+	font-family: Caveat;
+	margin: 0 auto;
+	border-color: darkgreen;
+	border: thin;
+ }
+
+.stepContent{ 
+	background-color:rgba(255,222,173,0.00);
+	width: 90%;
+	padding:10px;
+	margin: 0 auto;
+	display:flex;
+	flex-wrap:wrap;
+	text-align: center;
+	border-radius:10px;
+	}
+
+
+.warning{
+	background-color: rgba(200,230,201,1.00);
+	margin: 0 auto;
+	padding: 20px;
+	padding-right: 40px;
+	border-radius: 20px;
+	
+}
+.stepDescription {
+	width:90%;
+	padding:10px;
+	line-height:130%;
+	text-align: left;
+	font-family: Candara;
+	background-color:rgba(250,235,215,0.10);
+	}
+
+
+.stepImage img{
+	text-align:right;
+	flex-wrap: wrap;
+	background-color:rgba(245,255,250,0.00);
+	margin: 0 auto;
+	}
+
+.stepImage {
+	width:20%;	
+	height: auto;
+	text-align: right;
+	margin-right: 20px;
+	margin-left:auto;
+	}
+
+.stepImage img {
+	width:100%;
+    height:auto;
+}
+
+
+strong {
+  font-weight: 800;
+  font-size: 22px;	
+  font-family: Candara;
+  }
+
