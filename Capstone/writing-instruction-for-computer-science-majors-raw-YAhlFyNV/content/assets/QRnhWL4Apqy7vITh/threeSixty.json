@@ -1,0 +1,27 @@
+{
+  "version": "3.80.31058.0",
+  "course_id": "6NHbsjZrkNc",
+  "title": "Practice Outline",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6RUBhheoGgD",
+      "title": "Knowledge Check\nOutlines help to do what for your paper?",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 560
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
