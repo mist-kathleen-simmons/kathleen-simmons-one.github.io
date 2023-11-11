@@ -1,0 +1,27 @@
+{
+  "version": "3.80.31058.0",
+  "course_id": "6Qt8p2EDiuE",
+  "title": "Practice Outline",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Outline Practice"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5dEhCdXEqo1",
+      "title": "Outline Practice",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 560
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
