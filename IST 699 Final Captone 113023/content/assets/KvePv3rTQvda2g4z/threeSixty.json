@@ -1,0 +1,27 @@
+{
+  "version": "3.80.31058.0",
+  "course_id": "5eNtcHObMXd",
+  "title": "Knowledge Check\nWhen is it best to use citations for writing a research document?\nClick the submit button when finished.",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "CitationKnowCheck"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6j9TfZYwSZY",
+      "title": "Knowledge Check",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 635
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

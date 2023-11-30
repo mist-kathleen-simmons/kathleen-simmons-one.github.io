@@ -1,0 +1,27 @@
+{
+  "version": "3.80.31058.0",
+  "course_id": "63Ghjzvjgil",
+  "title": "Knowledge Check\nWhat methods are best when proofreading a document?",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "ProofKnowCheck"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6fxRlxRdGoy",
+      "title": "ProofKnowCheck",
+      "scene_index": "1.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 740,
+    "height": 560
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
